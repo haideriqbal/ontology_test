@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: "mongodb"
+    ports:
+      - 27070:27017
+    volumes: 
+      - ./data:/data/db
+  backend:
+    container_name: ontology-test-backend
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    depends_on: 
+      - mongodb
+    ports:
+      - 8080:8080
+  frontend:
+    container_name: frontend
+    stdin_open: true
+    build:
+      context: ./frontend/frontend-ontology/
+      dockerfile: Dockerfile
+    depends_on: 
+      - backend
+    ports:
+      - 3000:3000

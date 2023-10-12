@@ -1,0 +1,6 @@
+/Users/haideriqbal/Documents/ebi_test_ontology/backend/src/main/java/com/ebi/ontology/service/OntologyService.java
+/Users/haideriqbal/Documents/ebi_test_ontology/backend/src/main/java/com/ebi/ontology/controller/OntologyController.java
+/Users/haideriqbal/Documents/ebi_test_ontology/backend/src/main/java/com/ebi/ontology/repository/OntologyRepository.java
+/Users/haideriqbal/Documents/ebi_test_ontology/backend/src/main/java/com/ebi/ontology/exception/OntologyNotFoundException.java
+/Users/haideriqbal/Documents/ebi_test_ontology/backend/src/main/java/com/ebi/ontology/EbiTestOntologyApplication.java
+/Users/haideriqbal/Documents/ebi_test_ontology/backend/src/main/java/com/ebi/ontology/model/Ontology.java

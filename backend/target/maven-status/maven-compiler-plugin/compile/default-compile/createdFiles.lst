@@ -1,0 +1,6 @@
+com/ebi/ontology/EbiTestOntologyApplication.class
+com/ebi/ontology/exception/OntologyNotFoundException.class
+com/ebi/ontology/model/Ontology.class
+com/ebi/ontology/controller/OntologyController.class
+com/ebi/ontology/repository/OntologyRepository.class
+com/ebi/ontology/service/OntologyService.class

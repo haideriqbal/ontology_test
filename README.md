@@ -1,1 +1,1 @@
-# ontology_test
+# ebi_test_ontology
